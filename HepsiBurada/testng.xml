@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="All Test Suite">
+<parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.hepsiburada.com/"/>
+    <parameter name="UserEmail" value="testusermugecetin@gmail.com"/>
+    <parameter name="UserPassword" value="858585"/>
+    <test name="HepsiBuradaTest" time-out="500">
+        <classes>
+            <class name="HepsiBuradaTest"></class>
+        </classes>
+    </test>
+</suite>

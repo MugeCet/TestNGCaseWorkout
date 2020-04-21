@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="UserPassword" value="858585"/>
+  <parameter name="UserEmail" value="testusermugecetin@gmail.com"/>
+  <parameter name="url" value="https://www.hepsiburada.com/"/>
+  <test thread-count="5" name="HepsiBuradaTest(failed)">
+    <classes>
+      <class name="HepsiBuradaTest">
+        <methods>
+          <include name="CheckShoppingCardIsEmpty"/>
+          <include name="ClickLoginButton"/>
+          <include name="SearchThirdProduct"/>
+          <include name="SetupUrl"/>
+          <include name="LoginProcess" invocation-numbers="0"/>
+          <include name="CheckSuccessLogin"/>
+          <include name="CheckTheLoginPage"/>
+          <include name="SearchSecondProduct"/>
+          <include name="CloseBrowser"/>
+          <include name="CheckTheHomePage"/>
+          <include name="OpenShoppingCard"/>
+          <include name="SearchFirstProduct"/>
+        </methods>
+      </class> <!-- HepsiBuradaTest -->
+    </classes>
+  </test> <!-- HepsiBuradaTest(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
